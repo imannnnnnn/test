@@ -1,10 +1,9 @@
 /*
 1- .map should be within <div></div>
 2- input of map can have the same name of array
-3- key should be included as ID in array
+3- key should be included as when calling the props
 4- array should directly come from source array file not the function input
 5- don't forget to export the source array file
-
 6-when using a props in the destination, inputs are as blahblah = {blahblah}
 
         <Note
@@ -24,4 +23,5 @@ and then pointed out by {props.title} {props.content}  ...
  const  arrayName =[{id:1 , title:JSCode, content: "This is a comment"},
                     {    },
                     {    }]
+9- props function should include a return value
 */
